@@ -148,3 +148,23 @@ let score1 = 90;
 let score2 = 85;
 console.log("Greater than or equal to >=" ,score1 >= score2); // Output: true
 console.log("less than or equal to >=" ,score1 <= score2); // Output: false
+
+  let num11234 = 10;
+let str123456 = "10";
+
+console.log(num11234 < 12 && str123456 > 8 && num11234 === 10); // displays: true
+console.log(num11234 < 12 && str123456 > 8 && num11234 === 9); // displays: false
+
+console.log(num11234 < 12 || str123456 > 8 || num11234 === 9); // displays: true
+
+let names123= null;
+console.log(names123 ?? "Default Name"); // displays: Default Name
+
+let  ages =25
+console.log(ages ?? "Default Name"); 
+
+let x12 =null;
+console.log(x12);
+x12 ??=10; 
+console.log(x12);
+
