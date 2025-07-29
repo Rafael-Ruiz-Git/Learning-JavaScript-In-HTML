@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biglnt-Symbol</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+  let maxInteger = Number.MAX_SAFE_INTEGER;
+  console.log("maxInteger:", maxInteger);
+  console.log("maxInteger:", maxInteger + 1);
+  console.log("maxInteger:", maxInteger + 2);
+
+  let bigInteger = BigInt(maxInteger);
+  console.log( bigInteger);
+  console.log(typeof bigInteger);
+  console.log(bigInteger + 100000000000n);
+
+  let symbol1 = Symbol();
+  let symbol2 = Symbol();
+  console.log(symbol1);
+  console.log(symbol1 === symbol2);
+  console.log(typeof symbol1);
+  
+
+
+
+
+    </script>
+</head>
+<body></body>
+</html>

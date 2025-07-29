@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Interpolation</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+  let multilineString = "This is a\n" + "multi-line string"; 
+  let multilineString2 = "This is a\n multi-line string"; 
+  console.log(multilineString); 
+  console.log(multilineString2); 
+
+  let multilineString3 = `This is a
+multi-line string`;
+console.log(multilineString3);
+
+let firstName = "Alex";
+
+let greeting1 = "Hello, "+ firstName + "!" ;
+let greeting = `Hello, ${firstName}!`;
+console.log(greeting1); // Output: Hello, Alex!
+console.log(greeting); // Output: Hello, Alex!
+
+let x = 5;
+let y = 10;
+
+let sum = `The sum of ${x} and ${y} is ${x + y}.`;
+console.log(sum); // Output: The sum of 5 and 10 is 15.
+
+let escapeChars = `String "Double Quotes" and Single Quotes`;
+console.log(escapeChars); // Output: String "Double Quotes" and 'Single' Quotes
+
+
+    </script>
+</head>
+<body></body>
+</html>
